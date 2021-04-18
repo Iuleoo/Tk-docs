@@ -74,29 +74,6 @@
     }
   </script>
 
-  <!-- PWA 离线化 -->
-  <script>
-    if (typeof navigator.serviceWorker !== 'undefined') {
-      navigator.serviceWorker.register('sw.js')
-    }
-  </script>
-
-  <!-- 复制提醒 -->
-  <script src="https://cdn.bootcss.com/sweetalert/1.1.3/sweetalert.min.js"></script>
-  <script>
-    document.body.oncopy = function () { 
-      swal("复制成功 🎉", 
-        "若要转载或引用请务必保留原文链接，并申明来源。", 
-        "success"); };
-  </script>
-
-  <!-- 置顶插件 -->
-  <script src="style/jquery-1.11.3.min.js"></script>
-  <script src="style/jquery.toTop.min.js"></script>
-  <script>
-    $('.to-top').toTop();
-  </script>
-
   <!-- Docsify -->
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
   <!-- CDN files for docsify-katex -->
@@ -125,6 +102,29 @@
   <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-yaml.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-properties.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs/components/matlab.min.js"></script>
+
+  <!-- PWA 离线化 -->
+  <script>
+    if (typeof navigator.serviceWorker !== 'undefined') {
+      navigator.serviceWorker.register('sw.js')
+    }
+  </script>
+
+  <!-- 复制提醒 -->
+  <script src="https://cdn.bootcss.com/sweetalert/1.1.3/sweetalert.min.js"></script>
+  <script>
+    document.body.oncopy = function () { 
+      swal("复制成功 🎉", 
+        "若要转载或引用请务必保留原文链接，并申明来源。", 
+        "success"); };
+  </script>
+
+  <!-- 置顶插件 -->
+  <script src="style/jquery-1.11.3.min.js"></script>
+  <script src="style/jquery.toTop.min.js"></script>
+  <script>
+    $('.to-top').toTop();
+  </script>
 
 </body>
 </html>
