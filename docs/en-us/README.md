@@ -5,7 +5,7 @@
 💡 &nbsp;Like to explore new technology.\
 🌱 &nbsp;I am learning more about artificial intelligence and Linux.\
 ✍️ &nbsp;In my spare time, blogging is my little hobby.\
-✉️ &nbsp;You can send me an email：loki@mxm.im ! 
+✉️ &nbsp;You can send me an email：[TK@xkl.me](mailto:TK@xkl.me) ! 
 
 <img alt="Night Coding" src="https://www.helloimg.com/images/2020/09/05/Night-Coding672dc42c111ea58e.gif" align="right"/>
 
